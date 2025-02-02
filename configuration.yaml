@@ -1,0 +1,8 @@
+ [...]
+logger:
+  default: info
+  logs:
+    homeassistant.loader: debug
+    custom_components.blauberg_vento: debug
+
+[...]
