@@ -16,6 +16,7 @@ The switch from Homebridge to Homeassistant failed due to the lack of a working 
 - Getting and setting Turning Fan on and off
 - Getting and setting Fan speed (33%=1, 66%=2, 99%=3)
 - Getting and setting ventilation operation mode using swing control (when swing mode is on - heat recovery, off - ventilation)
+- Request Device Status every 10 seconds
 
 ## 3. Supported models
 I was able to test the plugin with model 1 & 5. So I can't check if it will work fine with the remaining models.
@@ -58,6 +59,7 @@ Received UDP packet: fd fd 02 10 30 30 31 44 30 30 32 44 34 42 34 36 35 37 30 37
 - Display: Filter status
 - Button: Filter reset
 - Cleanup log records with double information
+- Doublecheck if 10 second update request intervall could cause issues
 
 ## 8. Release Notes
 
